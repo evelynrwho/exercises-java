@@ -1,12 +1,9 @@
-package com.isosceles;
+package com.diamond;
 
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
-
-
         var in = new Scanner(System.in);
 
         System.out.print("Enter an integer number: ");
@@ -21,10 +18,8 @@ public class Main {
                 System.out.print("*");
             }
 
-            System.out.println();
+            System.out.print("\n");
         }
 
     }
-
-
 }
