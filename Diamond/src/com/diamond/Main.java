@@ -18,7 +18,19 @@ public class Main {
                 System.out.print("*");
             }
 
-            System.out.print("\n");
+            System.out.println();
+        }
+
+        for (int l = (n - 1); l > 0; l--) {
+            for (int k = 0; k <= n - l; k++) {
+                System.out.print(" ");
+            }
+
+            for (int m = 0; m < (l * 2) - 1; m++) {
+                System.out.print('*');
+            }
+
+            System.out.println();
         }
 
     }
